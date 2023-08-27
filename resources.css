@@ -5,6 +5,64 @@
     justify-content: center;
     width: 100%;
   }
+
+  .navbar {
+    color: #1c1c1c;
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.guys {
+    color: #1c1c1c;
+    font-size: 20px;
+}
+
+.nav-links {
+    margin-top: 1.5%;
+    justify-content: left;
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    margin: 8px 40px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #1c1c1c;
+    font-size:  25px;
+}
+
+.search {
+    margin-top: 1.5%;
+    color: #1c1c1c;
+    font-size: 40px;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search img {
+    height: 70%;
+    width: 40%;
+    right: 30%;
+}
+
+.search button {
+    background-color: #FAF5EE;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 100%;
+}
   
   .resources .div {
     background-color: #faf5ee;
